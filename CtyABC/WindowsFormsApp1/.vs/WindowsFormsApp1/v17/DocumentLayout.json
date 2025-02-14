@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\windowsformsapp1\\baocao\\reportkhach.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\baocao\\reportkhach.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\xdphqld\\ctyabc\\windowsformsapp1\\windowsformsapp1\\baocao\\bckhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\baocao\\bckhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\windowsformsapp1\\baocao\\bckhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04FAD125-4C76-4843-AC44-7F17B55B027E}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\baocao\\bckhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportKhach.rdlc [Design]",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\ReportKhach.rdlc",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\BaoCao\\ReportKhach.rdlc",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\ReportKhach.rdlc [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\BaoCao\\ReportKhach.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-02-13T09:33:49.085Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BCKhach.cs",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAIAwwGIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:36:13.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BCKhach.cs [Design]",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\BaoCao\\BCKhach.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\WindowsFormsApp1\\WindowsFormsApp1\\BaoCao\\BCKhach.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\BaoCao\\BCKhach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:33:30.254Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

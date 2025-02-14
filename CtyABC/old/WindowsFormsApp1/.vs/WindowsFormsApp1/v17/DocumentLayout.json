@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\xdphqld\\ctyabc\\old\\windowsformsapp1\\windowsformsapp1\\formcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\xdphqld\\ctyabc\\old\\windowsformsapp1\\windowsformsapp1\\formdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\windowsformsapp1\\formdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\xdphqld\\ctyabc\\old\\windowsformsapp1\\windowsformsapp1\\formcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D0B9E97-A4DB-4D92-84A3-2C634D2A137B}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\formcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDisplay.cs",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormDisplay.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormDisplay.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormDisplay.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormDisplay.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:49:18.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormControl.cs",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormControl.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormControl.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormControl.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormControl.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwBoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:21:51.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormControl.cs [Design]",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormControl.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormControl.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormControl.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:21:48.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDisplay.cs [Design]",
+              "DocumentMoniker": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormDisplay.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormDisplay.cs",
+              "ToolTip": "D:\\XDPHQLD\\CtyABC\\old\\WindowsFormsApp1\\WindowsFormsApp1\\FormDisplay.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormDisplay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:20:12.533Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

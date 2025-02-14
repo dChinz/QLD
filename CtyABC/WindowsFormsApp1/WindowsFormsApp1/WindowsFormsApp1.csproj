@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04FAD125-4C76-4843-AC44-7F17B55B027E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCao\BCKhach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\BCKhach.Designer.cs">
+      <DependentUpon>BCKhach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\FormBaoCaoControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\FormBaoCaoControl.Designer.cs">
+      <DependentUpon>FormBaoCaoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormControl.Designer.cs">
+      <DependentUpon>FormControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormCTHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormCTHD.Designer.cs">
+      <DependentUpon>FormCTHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormHD.Designer.cs">
+      <DependentUpon>FormHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormHH.Designer.cs">
+      <DependentUpon>FormHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormKH.Designer.cs">
+      <DependentUpon>FormKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBCKhach.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBCKhach.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormMdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMdi.Designer.cs">
+      <DependentUpon>FormMdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhat\FormPTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhat\FormPTC.Designer.cs">
+      <DependentUpon>FormPTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BaoCao\BCKhach.resx">
+      <DependentUpon>BCKhach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\FormBaoCaoControl.resx">
+      <DependentUpon>FormBaoCaoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\ReportKhach.rdlc" />
+    <EmbeddedResource Include="CapNhat\FormControl.resx">
+      <DependentUpon>FormControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhat\FormCTHD.resx">
+      <DependentUpon>FormCTHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhat\FormHD.resx">
+      <DependentUpon>FormHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhat\FormHH.resx">
+      <DependentUpon>FormHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhat\FormKH.resx">
+      <DependentUpon>FormKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMdi.resx">
+      <DependentUpon>FormMdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhat\FormPTC.resx">
+      <DependentUpon>FormPTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBCKhach.xsc">
+      <DependentUpon>DataSetBCKhach.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBCKhach.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBCKhach.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetBCKhach.xss">
+      <DependentUpon>DataSetBCKhach.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XuLy\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+</Project>
